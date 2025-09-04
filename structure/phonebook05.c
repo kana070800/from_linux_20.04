@@ -227,6 +227,7 @@ int compose_name(char str[], int limit){  //이름을 입력할 때 앞뒤, 사�
 }
 
 void handle_add(char * name){
+	char empty[] = " "; 
 	char number[BUFFER_LENGTH], email[BUFFER_LENGTH], group[BUFFER_LENGTH];
 
 	printf("  phone : ");
@@ -278,10 +279,10 @@ int search(char *name){
 }
 
 void print_person(Person *p) {
-	printf("%s\n", p->name);
-	printf("  %s\n", p->number);
-	printf("  %s\n", p->email);
-	printf("  %s\n", p->group);
+	printf("name : %s\n", p->name);
+	printf("  number : %s\n", p->number);
+	printf("  email : %s\n", p->email);
+	printf("  group : %s\n", p->group);
 }
 
 void find(char *name){
