@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 linux system programming test
 KOREATECHKOREATECHKOREATECH
 KOREATECH
+=======
+
+>>>>>>> 51f98c54a50764417c0cc2159358da79e0197fbc
